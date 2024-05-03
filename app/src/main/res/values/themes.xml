@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Filters" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/green_b</item>
+    </style>
+
+    <style name="Theme.Filters" parent="Base.Theme.Filters" />
+
+    <style name="CardViewText" parent="Base.Theme.Filters">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
